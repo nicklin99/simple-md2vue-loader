@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "update docs",
+            "type": "shell",
+            "command": "cd dist \
+            && git add -A \
+            && git commit -m 'deploy'\
+            && git push -f git@github.com:nicklin99/simple-md2vue-loader.git master:gh-pages"
+        }
+    ]
+}
