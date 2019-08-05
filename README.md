@@ -2,6 +2,8 @@
 # simple-md2vue-loader
 
 将一个md文件转出一个vue组件的webpack loader
+
+[演示地址](https://nicklin99.github.io/simple-md2vue-loader/)
  
 ### 主要特点
 
@@ -13,12 +15,14 @@
 
 演示
 
-```vue:hello
-// 这里的代码将作为vue组件,组件局部注册为 VueHello
-```
+    ```vue:hello
+    // 这里的代码将作为vue组件,组件局部注册为 VueHello
+    ```
 
-```vue
-// 这里的代码不会作为演示
-```
+不是演示
+
+    ```vue
+    // 这里的代码不会作为演示
+    ```
 
 ###  演示demo组件需要组件实现，请参考 example/src/demo.vue

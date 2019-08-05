@@ -7,6 +7,7 @@
             "label": "update docs",
             "type": "shell",
             "command": "cd dist \
+            && git init \
             && git add -A \
             && git commit -m 'deploy'\
             && git push -f git@github.com:nicklin99/simple-md2vue-loader.git master:gh-pages"
