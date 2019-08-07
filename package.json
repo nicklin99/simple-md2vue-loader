@@ -1,6 +1,6 @@
 {
   "name": "simple-md2vue-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compile markdown to vue component",
   "main": "src/loader.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "keywords": ["markdown","vue", "loader"],
   "author": "nicklin",
   "license": "ISC",
+  "repository": "github:nicklin99/simple-md2vue-loader",  
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
@@ -29,5 +30,9 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "marked": "^0.7.0",
+    "highlight.js": "^9.15.9",
+    "lodash": "^4.17.15"
+  }
 }
